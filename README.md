@@ -4,6 +4,13 @@ Repositório criado para estudos da ferramenta de Git e GitHub.
 
 Saiba mais meus repositóios: [André Felipe Repositórios](https://github.com/AndreFelipeCL/) 
 
+### start the ssh-agent in the background
+eval $(ssh-agent -s)
+
+### Adding the ssh key to agent
+ssh-add ~/.ssh/id_rsa
+
+
 Comandos git:
 
 ### log [--options] mostra todo o log de commits
