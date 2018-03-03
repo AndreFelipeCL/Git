@@ -16,4 +16,8 @@ Comandos git:
     show <hash do commit> - Mostra de modo detalhado todas as alterações de um commit específico.
 
     diff - Mostra todas as modificações nos arquivos antes de um commit (arquivos modified) com o mesmo arquivo na sua versão unmodified.
-        [--name-only]           - Mostra somente uma lista de arquivos modificados.
+        [--name-only]           - Mostra somente uma lista de arquivos modificados. 
+
+    checkout - Descarta todas as alterações feitas no arquivo.
+
+    reset HEAD <nome do arquivo> - Retira os arquivos emn STAGED (adicionados para commit).
