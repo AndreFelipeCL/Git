@@ -1,0 +1,2 @@
+Teste do primeiro commit após trabalhar o ciclo de vida:
+    untracked -> unmodified -> modified -> staged
