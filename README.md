@@ -14,3 +14,6 @@ Comandos git:
     shortlog - Mostra um log mais resumido com o Autor e seus commits
 
     show <hash do commit> - Mostra de modo detalhado todas as alterações de um commit específico.
+
+    diff - Mostra todas as modificações nos arquivos antes de um commit (arquivos modified) com o mesmo arquivo na sua versão unmodified.
+        [--name-only]           - Mostra somente uma lista de arquivos modificados.
