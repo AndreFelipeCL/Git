@@ -20,4 +20,7 @@ Comandos git:
 
     checkout - Descarta todas as alterações feitas no arquivo.
 
-    reset HEAD <nome do arquivo> - Retira os arquivos emn STAGED (adicionados para commit).
+    reset HEAD <nome do arquivo> - Retira os arquivos em STAGED (adicionados para commit).
+        [--soft]                - Remove o último commit e mantém as alterações no arquivo. O arquivo fica STAGED.
+        [--mixed]               - Remove o último commit e mantém as alterações no arquivo. O arquivo fica MODIFIED.
+        [--hard]                - Ignora tudo o que fora feito em um commit e realiza um descarte agressivo, removendo tudo que foi feito, arquivos em UNMODIFIED.
